@@ -1,4 +1,3 @@
-import "./style.css";
 //import { storing, getting } from "./db";
 
 const app = (document.querySelector("#app").innerHTML = `
