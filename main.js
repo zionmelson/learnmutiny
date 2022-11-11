@@ -3,7 +3,7 @@ import "./style.css";
 
 const app = (document.querySelector("#app").innerHTML = `
   <div>
-    <img src="./assets/trio.png" class="background" />
+    <img src="/learnmutiny/assets/trio.png" class="background" />
     <div class="main">
       <video class="video" width="320" height="240" autoplay>
       </video>
@@ -29,7 +29,7 @@ nextButton.addEventListener("click", (e) => {
 });
 
 function showVideo() {
-  video.setAttribute("src", "./assets/learn.mp4");
+  video.setAttribute("src", "/learnmutiny/assets/learn.mp4");
   video.load();
   video.play();
 }
