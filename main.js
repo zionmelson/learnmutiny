@@ -3,7 +3,7 @@ import "./style.css";
 
 const app = (document.querySelector("#app").innerHTML = `
   <div>
-    <img src="./assets/trio.jpg" class="background" />
+    <img src="./assets/trio.png" class="background" />
     <div class="main">
       <video class="video" width="320" height="240" autoplay>
       </video>
