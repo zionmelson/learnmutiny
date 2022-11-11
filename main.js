@@ -7,7 +7,7 @@ const app = (document.querySelector("#app").innerHTML = `
       <video class="video" width="320" height="240" autoplay>
       </video>
       <h1 class="title">learnmutiny.</h1>
-      <button id="next">learn.</button>
+      <button id="next">learn</button>
     <div>
   </div>
 `);
