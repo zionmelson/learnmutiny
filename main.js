@@ -21,7 +21,7 @@ nextButton.addEventListener("click", (e) => {
   e.preventDefault();
   if (played) {
     showVideo();
-    //storing(video.src);
+
     played = false;
     nextButton.className = "#next-clicked";
   }
